@@ -136,9 +136,9 @@ const tiktokCommand = async (m, Fox) => {
           const fileSizeInMB = finalMediaBuffer.length / (1024 * 1024);
 
           if (type === 'video' && fileSizeInMB <= 300) {
-            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> ©ʀᴇᴅ-ꜰᴏx-ᴍᴅ' };
+            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> 𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿♥️' };
           } else if (type === 'audio' && fileSizeInMB <= 300) {
-            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> ©ʀᴇᴅ-ꜰᴏx-ᴍᴅ' };
+            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> 𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿♥️' };
           }
 
           await Fox.sendMessage(m.from, content, { quoted: m });
