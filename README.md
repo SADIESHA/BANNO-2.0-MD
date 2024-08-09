@@ -4,18 +4,18 @@
   <a href="tiktok.com/">
   <p align="center">
 <img src="./Android/database/K.Prabhasha.gif" alt="RED_FOX_MD..." width="320"/>
-    <img alt="Red-Fox-MD" height="300" src="media/fox-logo.jpg">
+    <img alt="MANNO-MD" height="600" src="media/fox-logo.jpg">
 
 <p>
   <p align="center">
 <a href="https://github.com/mrhansamala"><img title="Author" src="https://img.shields.io/badge/CREATOR-MR HANSAMALA-black.svg?style=for-the-badge&logo=github"></a>
 
 <h2 align="center">
-  <a href="https://chat.whatsapp.com/DzhPsWxMQZk0usEQsUL1fN">
+  <a href="https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM">
     <img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /> 
     
   <h2 align="center">
-  <a href="https://whatsapp.com/channel/0029Vaej5TsAe5Vxx0getx1Z">
+  <a href="https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM">
     <img src="https://img.shields.io/badge/Join Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
       </a>
 </h>
@@ -33,7 +33,7 @@
 
 #### Fork the repo
  <br>
-<p align="center"><a href="https://github.com/mrhansamala/RED-FOX-MD/fork"> <img src="https://img.shields.io/badge/Fork-red?style=for-the-badge&logo=Fork" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://github.com/Itxmanno05/MANNO-2.0-MD/fork"> <img src="https://img.shields.io/badge/Fork-red?style=for-the-badge&logo=Fork" width="220" height="38.45"/></a></p>
 
 
 
