@@ -23,7 +23,7 @@ const fetchData = async (m, Fox) => {
 
       const contentType = res.headers.get('content-type');
       if (!/text|json/.test(contentType)) {
-        await Fox.sendMedia(m.from, url, 'file', '> Api Fetched From RED-FOX-MD', m);
+        await Fox.sendMedia(m.from, url, 'file', '> Api Fetched From 𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿', m);
         return;
       }
 
