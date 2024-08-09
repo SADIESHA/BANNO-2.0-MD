@@ -67,10 +67,10 @@ const searchAPK = async (m, Fox) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `*🦊⃟✨RED_FOX-MD APK Downloader🦊⃟✨*\n\n🔍 Search and download your favorite APKs easily.\n\n📌 Simply select an APK from the list below to get started.\n\n`
+                text: `*❥︎✨MANNO.2.0-MD APK Downloader🦊⃟✨*\n\n🔍 Search and download your favorite APKs easily.\n\n📌 Simply select an APK from the list below to get started.\n\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴇᴅ_ꜰᴏx-ᴍᴅ"
+                text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴɴᴏ-ᴍᴅ"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image: { url: `https://i.ibb.co/G93sbNT/Picsart-24-06-23-13-39-23-996.png` } }, { upload: Fox.waUploadToServer })),
@@ -87,8 +87,8 @@ const searchAPK = async (m, Fox) => {
                       title: "ꜱᴇʟᴇᴄᴛ ᴀɴ ᴀᴘᴋ",
                       sections: [
                         {
-                          title: "🦊Top 10 APK Results",
-                          highlight_label: "🦊 Top 10",
+                          title: "♥️Top 10 APK Results",
+                          highlight_label: "♥️ Top 10",
                           rows: apkButtons
                         },
                       ]
