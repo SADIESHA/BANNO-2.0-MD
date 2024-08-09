@@ -90,16 +90,16 @@ const test = async (m, Fox) => {
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `┏━━━━━━━━━━━━━━┈⊷
-              •ᴀʟɪᴠᴇ ɴᴏᴡ•
+              •𝘼𝙇𝙄𝙑𝙀 𝙉𝙊𝙒 𝙈𝘼𝙉𝙉𝙊•
               
-> 📅 ᴜᴘᴛɪᴍᴇ: ${uptime}
-> 📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-> 🛡 ᴍᴏᴅᴇ: *${mode}*
-> 💫 ᴘʀᴇғɪx: [ . ]
+> 📅 𝙐𝙥𝙩𝙞𝙢𝙚: ${uptime}
+> 📡 𝙋𝙡𝙖𝙩𝙛𝙤𝙧𝙢: *${os.platform()}*
+> 🛡 𝙈𝙤𝙙𝙚: *${mode}*
+> 💫 𝙋𝙧𝙚𝙛𝙞𝙭: [ . ]
 ┗━━━━━━━━━━━━━┈⊷  `
 }),
 footer: proto.Message.InteractiveMessage.Footer.create({
-  text: "> ©ʀᴇᴅ-ꜰᴏx-ᴍᴅ"
+  text: "> 𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿"
 }),
 header: proto.Message.InteractiveMessage.Header.create({
     ...(await prepareWAMessageMedia({ image : fs.readFileSync('../../media/red-alive.png')}, { upload: Fox.waUploadToServer})), 
@@ -113,14 +113,15 @@ nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
       {
       name: "cta_url",
       buttonParamsJson: JSON.stringify({
-        display_text: "Join Our Community",
-        url: `https://whatsapp.com/channel/0029Vaej5TsAe5Vxx0getx1Z`
+        display_text: "Join Our Grouop",
+        url: `https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM`
       })
     },
     {
       name: "quick_reply",
       buttonParamsJson: JSON.stringify({
         display_text: "ɢɪᴛʜᴜʙ ʀᴇᴘᴏ",
+        url: `https://github.com/Itxmanno05/MANNO-2.0-MD`
         id: ".sc"
       })
     },
@@ -129,8 +130,8 @@ nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
       "buttonParamsJson": `{"title":"🌟ꜱᴛᴀʀ⭐ʀᴀᴛᴇ🌟",
      "sections":
        [{
-        "title":"🧛ᴍʀ-ʜᴀɴꜱᴀᴍᴀʟᴀ🧛",
-        "highlight_label":"🦊ʀᴇᴅ-ꜰᴏx🦊",
+        "title":"🧛ᴍʀ-ᴍᴀɴɴᴏ🧛",
+        "highlight_label":"💌𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿♥️",
         "rows":[
         {
 "header":"",
@@ -198,7 +199,7 @@ Have a nice day and see you again with a new update ✨
             },
             message: {
                 contactMessage: {
-                    displayName: `🦊ʀᴇᴅ-ꜰᴏx-ᴍᴅ🦊`,
+                    displayName: `💌𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿♥️`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'FOX'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
