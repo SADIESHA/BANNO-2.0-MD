@@ -83,7 +83,7 @@ const facebookCommand = async (m, Fox) => {
                 text: `*FACEBOOK POST DOWNLOADER*\n\n> *TITLE*: ${fbData.title}`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴇᴅ_ꜰᴏx-ᴍᴅ"
+                text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴɴᴏ-ᴍᴅ"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image: { url: fbData.thumbnail } }, { upload: Fox.waUploadToServer })),
@@ -145,7 +145,7 @@ const facebookCommand = async (m, Fox) => {
             content = { 
               video: finalMediaBuffer, 
               mimetype: 'video/mp4', 
-              caption: '> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴇᴅ_ꜰᴏx-ᴍᴅ',
+              caption: '> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴɴᴏ-ᴍᴅ',
             };
             await Fox.sendMessage(m.from, content, { quoted: m });
           } else {
