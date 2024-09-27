@@ -28,7 +28,7 @@ const cricketScore = async (m, Fox) => {
       const result = response.data;
 
       let formattedResult = `╭══════════════•∞•══╮\n`;
-      formattedResult += `│🦊   *•» 𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿 «•*\n`;
+      formattedResult += `│🦊   *•» 𝘽𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿 «•*\n`;
       formattedResult += `│🦊   *LIVE MATCH INFO* 🦊\n`;
       formattedResult += `│🦊\n`;
 
