@@ -11,7 +11,7 @@ const ping = async (m, sock) => {
              
         ${new Date() - startTime} _ᴍs_*
                  🔐⚠️  
-    *🫀 🄼𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿♥️_*`;
+    *🫀 🄱𝘽𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿♥️_*`;
     await typeWriterEffect(m, sock, key, text);
 
     await m.React('🧬');
