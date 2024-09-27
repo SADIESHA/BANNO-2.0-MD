@@ -39,7 +39,7 @@ try {
     url: videoInfo.thumbnail,
   },
   caption: `
-╭──═❮ *YouTube Player* ✨ ❯═─┈•
+╭──═❮ *𝗕𝗔𝗡𝗡𝗢 𝗣𝗟𝗔𝗬𝗘𝗥* ✨ ❯═─┈•
 │✑ *Title:* ${videoInfo.title}
 │✑ *duration:* ${videoInfo.timestamp}
 │✑ *Uploaded* ${videoInfo.ago}
@@ -82,7 +82,7 @@ try {
     url: firstVideo.thumbnail,
   },
   caption: `
-╭──═❮ *YouTube Player* ✨ ❯═─┈•
+╭──═❮ *𝗕𝗔𝗡𝗡𝗢 𝗣𝗟𝗔𝗬𝗘𝗥* ✨ ❯═─┈•
 │✑ *Title:* ${firstVideo.title}
 │✑ *duration:* ${firstVideo.timestamp}
 │✑ *Uploaded* ${firstVideo.ago}
