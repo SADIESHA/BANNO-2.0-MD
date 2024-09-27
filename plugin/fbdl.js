@@ -83,7 +83,7 @@ const facebookCommand = async (m, Fox) => {
                 text: `*FACEBOOK POST DOWNLOADER*\n\n> *TITLE*: ${fbData.title}`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀɴɴᴏ-ᴍᴅ"
+                text: "> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴀɴɴᴏ-ᴍᴅ"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image: { url: fbData.thumbnail } }, { upload: Fox.waUploadToServer })),
