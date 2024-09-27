@@ -3,7 +3,7 @@ const { generateWAMessageFromContent, proto } = pkg;
 import axios from 'axios'; // Import axios for HTTP requests
 
 const handleRepoCommand = async (m, Fox) => {
-  const repoUrl = 'https://github.com/Itxmanno05/MANNO-2.0-MD';
+  const repoUrl = 'https://github.com/SADIESHA/BANNO-2.0-MD';
   try {
     const response = await axios.get(repoUrl);
     const repoData = response.data;
@@ -30,7 +30,7 @@ const handleRepoCommand = async (m, Fox) => {
               text: messageText
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "> 𝙈𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿"
+              text: "> 𝘽𝘼𝙉𝙉𝙊 𝟮.𝟬 𝙈𝘿"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
              ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/6ba33e039956b9c84af11.jpg` } }, { upload: Fox.waUploadToServer })),
@@ -59,13 +59,13 @@ const handleRepoCommand = async (m, Fox) => {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜰᴏʀᴋ",
-                    url: `https://github.com/Itxmanno05/MANNO-2.0-MD
+                    url: `https://github.com/SADIESHA/BANNO-2.0-MD
                 },
                 {
                   name: "cta_url",
                   buttonParamsJson: JSON.stringify({
                     display_text: "ᴊᴏɪɴ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ",
-                    url: `https://chat.whatsapp.com/BNE0V8XpEZK0q4IgJ9jklM`
+                    url: `https://chat.whatsapp.com/CgiETSl3EBvAsEZto3j53x`
                   })
                 }
               ],
