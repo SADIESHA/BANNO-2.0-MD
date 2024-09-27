@@ -20,7 +20,7 @@ const mediafireDownload = async (m, Fox) => {
 
       if (mediafireInfo && mediafireInfo.link) {
         const mediaUrl = mediafireInfo.link;
-        const caption = `> ©ᴍᴀɴɴᴏ-ᴍᴅ\n> File: ${mediafireInfo.name}\n> Size: ${mediafireInfo.size}\n> Date: ${mediafireInfo.date}`;
+        const caption = `> ©ʙᴀɴɴᴏ-ᴍᴅ\n> File: ${mediafireInfo.name}\n> Size: ${mediafireInfo.size}\n> Date: ${mediafireInfo.date}`;
 
 
         const extension = mediaUrl.split('.').pop().toLowerCase();
